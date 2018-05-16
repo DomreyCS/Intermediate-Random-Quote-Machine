@@ -10,8 +10,8 @@ function getQuote() {
     xhr.onload = function() {
         if (xhr.status === 200) {
             var data = JSON.parse(this.responseText); // JSON.parse translates the object
-            document.getElementById('quote').innerHTML = `${data[0].content} &mdash; ${data[0].title}`;
-            
+            document.getElementById('quote').innerHTML = `${data[0].content}`;
+            document.getElementById('author').innerHTML = `&mdash; ${data[0].title}`;
         }
     }
     xhr.onerror = function() {

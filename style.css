@@ -1,0 +1,30 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+#container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+#quote > p{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 5px 5px 5px 5px;
+    color: #383636;
+}
+
+#author {
+    font-weight: 400;
+    font-size: 1em;
+    line-height:1.5em;
+    text-align: right;
+    margin: 0 0 0 0;
+    color: #4c4c4c;
+}
