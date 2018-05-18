@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
 }
-#container{
+#quoteBox{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -25,6 +25,10 @@ body{
     font-size: 1em;
     line-height:1.5em;
     text-align: right;
-    margin: 0 0 0 0;
+    margin: 0 0 0 10;
     color: #4c4c4c;
 }
+
+/*#buttons {*/
+/*    text-align: center;*/
+/*}*/
