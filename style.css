@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #fff;
+    background-color: #f7d92e;
 }
 #quoteBox{
     position: absolute;
@@ -12,23 +12,22 @@ body{
     height: 50%;
     margin: auto;
 }
+
 #quote > p{
+    font-family: 'Baskerville', serif;
     font-weight: 500;
-    font-size: 36px;
-    line-height: 36px;
+    font-size: 32px;
+    line-height: 1.5em;
     margin: 5px 5px 5px 5px;
     color: #383636;
 }
 
 #author {
     font-weight: 400;
-    font-size: 1em;
-    line-height:1.5em;
+    font-size: 18px;
     text-align: right;
-    margin: 0 0 0 10;
-    color: #4c4c4c;
+    padding: 10px 20px 10px 10px;
+    margin: 0px;
+    color: #383636;
 }
 
-/*#buttons {*/
-/*    text-align: center;*/
-/*}*/
